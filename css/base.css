@@ -10,11 +10,10 @@ main{
     flex-grow: 1;
     padding: 10px 10px;
     text-align: center;
-
 }
 
 header {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 40px;

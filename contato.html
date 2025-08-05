@@ -1,29 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ford Enter</title>
     <link rel="stylesheet" href="css/base.css">
-</head>
+    <link rel="stylesheet" href="css/contato.css">
+</head>css
+
 <body>
     <header>
         <img src="img/logo-ford-256.png" alt="Logo ford cabeçalho">
         <nav>
             <ul>
                 <li><a href="/index.html">Home</a></li>
-                <li><a href="/lancamento.html">Laçamento</a></li>
+                <li><a href="/lancamento.html">Lançamento</a></li>
                 <li><a href="/contato.html">Contato</a></li>
             </ul>
         </nav>
+        <div></div>
     </header>
 
-    <main>
-        <h1>contato</h1>
+    <main class="contatoPagina">
+        <div class="contato-imagem">
+            <img src="img/xls 2.2 diesel.jpg" alt="Veiculo Contato">
+        </div>
+        <section class="formularioContainer">
+            <form class="formulario">
+                <h3>Sobre você</h3>
+                <div class="inputGrupo">
+                    <input type="text" placeholder="Nome completo">
+                </div>
+
+                <div class="inputGrupo">
+                    <input type="text" placeholder="E-mail">
+                </div>
+
+                <div class="inputGrupo">
+                    <input type="text" placeholder="Telefone">
+                </div>
+                
+                <div class="inputGrupo">
+                    <select>
+                        <option value="" disabled selected hidden>Tipo de contato</option>
+                        <option value="elogio">Elogio</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="Solicitacao">Solicitação</option>
+                    </select>
+
+                </div>
+
+                <div class="inputGrupo">
+                    <textarea placeholder="Sua mensagem" rows="2"></textarea>
+                </div>
+
+                <button type="submit" class="submitbotao" >
+                    <span>Enviar mensagem</span>
+                </button>
+                        
+            </form>
+        </section>
     </main>
 
     <footer>
-        <div class="redesSociais"> 
+        <div class="redesSociais">
             <a href=""><img src="/img/facebook-50.png" alt=""></a>
             <a href=""><img src="/img/instagram-logo-50.png" alt=""></a>
             <a href=""><img src="/img/youtube-squared-50.png" alt=""></a>
@@ -33,4 +74,5 @@
         </div>
     </footer>
 </body>
+
 </html>
