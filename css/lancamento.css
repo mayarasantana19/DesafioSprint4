@@ -26,7 +26,8 @@
 .tabelaCarros{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
+    padding: 20px;
 }
 
 .veiculo-card{
@@ -46,7 +47,7 @@
     align-items: flex-start;
 }
 
-.veiculoInformacao input[type="chekbox"]{
+.veiculoInformacao input[type="checkbox"]{
     width: 30px;
     height: 30px;
     min-width: 20px;
@@ -108,3 +109,6 @@
     transform: translateY(-2px);
 }
 
+@media (max-width){
+    
+}
