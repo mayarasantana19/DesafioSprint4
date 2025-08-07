@@ -50,5 +50,58 @@
     border-radius: 6px;
     font-size: 0.95rem;
     background-color: #f9f9f9;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
+}
+.inputGrupo input:focus,
+.inputGrupo select:focus,
+.inputGrupo textarea:focus{
+    border-color: #00274c;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 39, 76, 0, 1);
+}
+
+.inputGrupo select{
+    appearance: none;
+    color: #555;
+}
+
+.inputGrupo textarea{
+    resize: vertical;
+    max-height: 30px;
+}
+
+.submitbotao{
+    background-color: #1351d8;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitBotão:hover{
+    background-color: #00274c;
+    color: white;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px){
+   
+        .contatoPagina{
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .formularioContainer{
+            width: 100%;
+            max-width: 100%;
+            padding: 0;
+        }
 }
